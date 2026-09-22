@@ -2,14 +2,15 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+description: Research code for GPU-accelerated graph query processing.
 nav: true
-nav_order: 4
+nav_order: 5
 ---
 
 {% if site.data.repositories.github_users %}
 
-## GitHub users
+<!--
+## GitHub profile
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for user in site.data.repositories.github_users %}
@@ -35,9 +36,14 @@ nav_order: 4
 {% endif %}
 {% endif %}
 
-{% if site.data.repositories.github_repos %}
+{% if site.data.repositories.github_repos %} -->
 
-## GitHub Repositories
+## Research repositories
+
+- **[Vora](https://github.com/gh8li/vora-artifact)** — a scalable single-GPU engine for subgraph query processing on large labeled graphs.
+- **[GCSM-BU](https://github.com/gh8li/GCSM-BU)** — GPU-based continuous subgraph matching on batch updates.
+
+[View all repositories on GitHub](https://github.com/gh8li?tab=repositories).
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for repo in site.data.repositories.github_repos %}
