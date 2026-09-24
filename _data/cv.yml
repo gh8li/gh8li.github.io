@@ -5,7 +5,7 @@ cv:
   # phone: +86-156-2909-6181
   location: Guangzhou, China
   summary: Ph.D. student at HKUST (Guangzhou), advised by Prof. Qiong Luo, with expected graduation in January 2027. Research focuses on database
-    systems, GPU acceleration, graph query processing, and multi-vector retrieval.
+    systems, GPU acceleration, graph query processing, and multi-vector retrieval, with a long-term interest in data systems for the AI era.
   sections:
     Education:
       - institution: The Hong Kong University of Science and Technology (Guangzhou)
@@ -23,6 +23,8 @@ cv:
         studyType: Bachelor's degree
         start_date: 2017-09
         end_date: 2022-06
+        highlights:
+          - "Advisor: Prof. Yuanyuan Zhu"
     Experience:
       - company: The Chinese University of Hong Kong
         position: Research Assistant
@@ -97,24 +99,20 @@ cv:
           - Implemented expansion, semi-join, and anti-join operators that produce columnar matching results.
           - Decomposed queries into tasks with bounded input-shard memory, using CPU–GPU transfer volume as the optimization objective.
           - The accepted paper reports up to 12× speedup over optimized CPU systems and up to 7× over the best GPU baseline on the evaluated workloads.
-      - name: GCSM-BU
-        summary: Continuous subgraph matching on batch updates.
-        highlights:
-          - Co-developed QO-CSM, a query-oriented formulation that avoids duplicate matches without explicit duplicate removal.
-          - Combined two-level indexing, dynamic breadth-first/depth-first enumeration, and backtracking flattening to balance GPU parallelism, memory
-            use, and workload.
+      - name: VectorHit
+        summary: Ongoing research on GPU-accelerated multi-vector retrieval with cross-vector support.
       - name: TenGraph
         summary: A tensor-based graph query engine built on PyTorch.
         highlights:
           - Represented graph structure, properties, and intermediate results with one-dimensional tensors.
           - Implemented matching, filtering, projection, aggregation, and ordering through tensor operations.
           - Used one codebase for multicore CPU and GPU execution; the paper reports 50–100× GPU-versus-CPU speedups on evaluated workloads.
-      - name: VectorHit
-        summary: Ongoing research on GPU-efficient multi-vector retrieval with cross-vector support.
+      - name: GCSM-BU
+        summary: Continuous subgraph matching on batch updates.
         highlights:
-          - Combines wider per-vector retrieval with support from multiple query vectors to suppress weak document candidates.
-          - Uses query-adaptive vector selection and progressive batched refinement for MaxSim scoring.
-          - The current draft evaluates text and multimodal retrieval on MS MARCO v1, LoTTe pooled, OK-VQA, and EVQA.
+          - Co-developed QO-CSM, a query-oriented formulation that avoids duplicate matches without explicit duplicate removal.
+          - Combined two-level indexing, dynamic breadth-first/depth-first enumeration, and backtracking flattening to balance GPU parallelism, memory
+            use, and workload.
     Awards:
       - title: National Scholarship for Undergraduate Students
         date: 2018-12
