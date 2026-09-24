@@ -31,8 +31,8 @@ Previously, I was a research assistant in the Database Research Group at The Chi
 
 ### Research
 
-- **[Vora]({{ '/projects/1_vora/' | relative_url }})** — a vector-based subgraph query engine that uses a single GPU to process graphs much larger than device memory. Accepted at ICDE 2027.
 - **[VectorHit]({{ '/projects/3_vectorhit/' | relative_url }})** — ongoing research on GPU-accelerated multi-vector retrieval.
+- **[Vora]({{ '/projects/1_vora/' | relative_url }})** — a vector-based subgraph query engine that uses a single GPU to process graphs much larger than device memory. Accepted at ICDE 2027.
 - **[TenGraph]({{ '/projects/4_tengraph/' | relative_url }})** — a graph query engine built from PyTorch tensor operations, with one codebase for multicore CPUs and GPUs. PVLDB 2024.
 - **[GCSM-BU]({{ '/projects/2_csm/' | relative_url }})** — GPU continuous subgraph matching for batch updates, using a query-oriented formulation to avoid duplicate matches. APWeb 2026.
 

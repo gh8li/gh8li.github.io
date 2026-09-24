@@ -2,7 +2,7 @@
 layout: page
 title: GCSM-BU
 description: Duplicate-free continuous subgraph matching for batch updates on GPUs.
-importance: 2
+importance: 4
 category: research
 related_publications: false
 ---

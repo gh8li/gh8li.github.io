@@ -91,6 +91,8 @@ cv:
         summary: Guanghua Li, Qiyan Li, Jingqiao Liu, Yuanyuan Zhu, and Ming Zhong. A framework that learns separate embeddings for network structure
           and attributes, then fuses them for downstream tasks such as node classification and link prediction.
     Projects:
+      - name: VectorHit
+        summary: Ongoing research on GPU-accelerated multi-vector retrieval.
       - name: Vora
         summary: Scalable GPU-accelerated subgraph query processing.
         highlights:
@@ -99,8 +101,6 @@ cv:
           - Implemented expansion, semi-join, and anti-join operators that produce columnar matching results.
           - Decomposed queries into tasks with bounded input-shard memory, using CPU–GPU transfer volume as the optimization objective.
           - The accepted paper reports up to 12× speedup over optimized CPU systems and up to 7× over the best GPU baseline on the evaluated workloads.
-      - name: VectorHit
-        summary: Ongoing research on GPU-accelerated multi-vector retrieval with cross-vector support.
       - name: TenGraph
         summary: A tensor-based graph query engine built on PyTorch.
         highlights:

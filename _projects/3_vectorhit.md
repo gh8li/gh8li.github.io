@@ -2,7 +2,7 @@
 layout: page
 title: VectorHit
 description: Ongoing research on GPU-accelerated multi-vector retrieval.
-importance: 4
+importance: 2
 category: research
 related_publications: false
 ---
